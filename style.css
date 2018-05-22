@@ -1,0 +1,39 @@
+#fanband-logohome {
+	font-family: yesteryear;
+	font-size: 48px;
+	color: #28A745 !important;
+	padding-right: 304px;
+	padding-top: 8px
+}
+
+
+h1{text-align: center;
+	align-content: center;
+
+}
+
+.texte-panier-compte{
+	font-size: 12px;
+}
+
+
+#logo-panier{
+	font-size: 24px;
+}
+
+#logo-compte{
+	font-size: 24px;
+}
+.panier:hover{
+color: #28A745
+}
+
+.compte:hover{
+color: #28A745
+}
+
+.mr-auto-perso{text-align: center;}
+
+li{
+	list-style-type: none;
+}
