@@ -42,8 +42,9 @@ h5{
 font-size: 50px !important;
 padding-bottom: 280px !important;
 font-family: 'Sunflower', sans-serif !important;
+color: #FFFFFF;
 }
 
 h5:hover{
-color: #F8F9FA
+color: #F5F5DC
 }
