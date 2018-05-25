@@ -41,5 +41,8 @@ li{
 h5{
 font-size: 50px !important;
 padding-bottom: 280px !important;
+}
 
+h5:hover{
+color: #28A745
 }
