@@ -48,3 +48,32 @@ color: #FFFFFF;
 h5:hover{
 color: #FFE4B5;
 }
+.card-header{
+font-family: 'Sunflower', sans-serif;
+color: #28A745;
+font-size:18px;
+background-color:#F4F9F4;
+}
+.card{
+padding-left: 0px;
+padding-right: 0px;
+}
+.card{
+margin: 10px;
+}
+footer{
+background-color:#F4F9F4;
+text-align: center;
+color:#28A745;
+padding: 30px;
+margin-left: 0;
+margin-right:0;
+}
+.text-footer{
+font-family: 'Inconsolata', monospace;
+color:#28A745;
+font-size: 18px;
+}
+.text-footer:hover{
+color:#616161;
+}
