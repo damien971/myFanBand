@@ -39,13 +39,15 @@ li{
 	list-style-type: none;
 }
 
-.buttonfanband{
-padding-bottom: 300px !important;
+h5{
+padding-bottom: 260px !important;
 font-family: 'Sunflower', sans-serif !important;
+font-size: 60px!important;
+color: #FFffff;
 }
 
 h5:hover{
-color: #FFE4B5;
+color:#FFE4B5 ;
 text-underline-position: none;
 }
 .card-header{
