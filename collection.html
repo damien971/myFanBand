@@ -12,16 +12,15 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 		<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-XXXXX-Y', 'auto');
-ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-119872338-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+		<!-- End Google Analytics -->
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
@@ -46,22 +45,22 @@ ga('send', 'pageview');
 			</form>
 		</nav>
 		
-		<div class="container">
+		<div class="container-fluid collection">
 			<div class="row">
-				<div class="col-12 col-md-6">
-					<h2><br><br><br><br><br>Le bracelet des footballeurs</h2>
+				<div class="col-12 col-md-6 Motif-footballeur">
+					<h2><br><br><br><br><br>Le bracelet des footballeurs</h2><br><br>
 					<img src="images/Motif-footballeur.png">
 				</div>
 				<div class="col-12 col-md-6">
-					<h2><br><br><br><br><br>Personnalisable aux couleurs de votre club favori <br>
+					<h2><br><br><br><br><br>Aux couleurs de votre club favori<br>
 					</h2>
 					<div class="row">
 						<div class="col-12 col-sm-5 card border-success mb-3">
 							<div class="card-header">Le bracelet PSG</div>
-							<img class="card-img-top" src="images/Bracelet-PSG.png" alt="Card image cap">	
+							<img class="card-img-top" src="images/Bracelet-PSG.png" alt="Card image cap">
 							<div class="card-body">
 								<p class="card-text">Ce bracelet aux couleurs du club de la capitale vous permettra d'afficher votre soutien au PSG en toutes circonstances.<br><br></p>
-								<a href="#" class="btn btn-outline-success">Voir le produit</a>
+								<a href="basket.html" class="btn btn-outline-success">Voir le produit</a>
 							</div>
 						</div>
 						<div class="col-12 col-sm-5 card border-success mb-3">
@@ -90,23 +89,32 @@ ga('send', 'pageview');
 						</div>
 					</div>
 				</div>
-				<footer>
-					<div class="col-12">
-						<div class="row align-items-bottom">
-							<div class="col-12 col-sm-4">
-								<a href="#" class="text-footer">Nos conditions générales de ventes</a>
-							</div>
-							<div class="col-12 col-sm-4">
-								<a href="#" class="text-footer">Notre politique d'expédition</a>
-							</div>
-							<div class="col-12 col-sm-4">
-								<a href="#" class="text-footer">Notre politique de retour</a>
-							</div>
-						</div>
-					</div>
-				</footer>
 			</div>
 		</div>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Rejoignez nous sur les réseaux sociaux</h2>
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook link"></i></a></li>
+							<li class="list-inline-item"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter link"></i></a></li>
+							<li class="list-inline-item"><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram link"></i></a></li>
+							
+						</ul>
+						<a id="contact" href="contact.html"><h2>Contactez-nous !</h2></a>
+					</div>
+					<div class="col-md-6">
+						<h2>Consultez nos engagements</h2>
+						<ul>
+							<li><a href="#" class="text-footer">Nos conditions générales de ventes</a></li>
+							<li><a href="#" class="text-footer">Notre politique d'expédition</a></li>
+							<li><a href="#" class="text-footer">Notre politique de retour</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
 <!-- end of file -->
