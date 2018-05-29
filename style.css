@@ -79,3 +79,50 @@ font-size: 18px;
 .text-footer:hover{
 color:#616161;
 }
+h2{
+font-family: 'Sunflower', sans-serif;
+color: #616161;
+font-size :22px;
+}
+.Motif-footballeur{
+  padding-left: 200px;
+}
+.link{
+color:#28A745;
+font-size: 18px;
+text-align: center;
+}
+
+.link:hover{
+color:#616161;
+}
+.main{
+	margin: 25px;
+}
+label {
+
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+  }
+
+ .formulaire {
+ 
+  margin: 0 auto;
+  width: 800px;
+  padding: 1em;
+
+}
+input, textarea {
+	width: 400px;
+  box-sizing: border-box;
+ }
+
+.submit{
+	margin-left: 93px;
+	margin-top: 5px;
+}
