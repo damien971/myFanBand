@@ -82,7 +82,7 @@ color:#616161;
 h2{
 font-family: 'Sunflower', sans-serif;
 color: #616161;
-font-size :22px;
+font-size :24px;
 }
 .Motif-footballeur{
   padding-left: 200px;
@@ -125,4 +125,12 @@ input, textarea {
 .submit{
 	margin-left: 93px;
 	margin-top: 5px;
+}
+.Motif-footballeur{
+padding-left: 140px;
+}
+.Inscrivez-vous{
+font-family: 'Sunflower', sans-serif;
+color: #616161;
+font-size:20px;
 }
